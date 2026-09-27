@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PocketMemory-AI
 
 基于 M5Stack StickS3 的 AI 语音记录助手。当前阶段先开发 Python AI 服务端，不接入硬件。
@@ -162,3 +163,6 @@ cd D:\minicamp
 ```powershell
 D:\minicamp\.venv\Scripts\python.exe -c "from storage.store import MemoryStore; import json; print(json.dumps(MemoryStore().list_recent(), ensure_ascii=False, indent=2))"
 ```
+=======
+# Unnamed
+>>>>>>> ef3cde5458c3b89c0869a1e3b40af14703ac4d6e
