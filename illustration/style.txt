@@ -1,0 +1,55 @@
+Cute hand-drawn animal doodle illustration.
+
+STYLE:
+- simple children's picture-book aesthetic
+- cozy personal diary illustration
+- adorable cartoon animal characters
+- simple rounded animal shapes
+- round heads and small bodies
+- tiny dot eyes and tiny mouths
+- simple expressive faces
+- clean black hand-drawn outlines
+- slightly imperfect and organic linework
+- subtle variation in line weight
+- flat 2D illustration
+- minimal visual details
+- soft muted pastel colors
+- warm cream and off-white background
+- colors used sparingly
+- subtle paper-like texture
+- simple and uncluttered composition
+- warm everyday slice-of-life feeling
+- cute, calm, friendly and cozy atmosphere
+- visually readable at small card size
+
+CHARACTER CONSISTENCY:
+The same animal should maintain a similar appearance across different images.
+The user's fixed character is a small caramel-brown bear, with round ears,
+a cream muzzle, tiny black dot eyes and a short rounded body.
+Other people can be represented by other cute animals such as bears,
+cats, puppies or ducks.
+
+VISUAL GOAL:
+The illustration should feel like a small everyday memory
+drawn inside a warm personal diary or children's picture book.
+It should feel naturally hand-drawn rather than highly polished.
+
+AVOID:
+- humans
+- realistic animals
+- photorealism
+- 3D
+- CGI
+- glossy rendering
+- anime human characters
+- complex shading
+- cinematic lighting
+- hyper-detailed textures
+- excessive gradients
+- neon colors
+- overly polished AI-generated aesthetics
+- text
+- letters
+- numbers
+- logos
+- watermarks

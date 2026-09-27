@@ -1,0 +1,22 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MemoDot · 一颗小点，收住一个念头</title><meta name="description" content="MemoDot 是你的随身记忆盒子：说一句、写一段，让每个灵感都有一个安静的落点。"><link rel="stylesheet" href="/app.css"></head><body><main id="welcome" class="welcome" aria-label="MemoDot 欢迎页">
+<header class="welcome-top">
+<div class="welcome-exploring"><span>Collecting</span><p>Everyday thoughts<br>Little discoveries<br>Words worth keeping<br>A moment of your own</p></div>
+<div><h2>About MemoDot</h2><p>一颗小点，收住一个念头。<br>把今天的声音、文字和心情，<br>轻轻留在身边。</p></div>
+<div><h2>A little invitation</h2><p>Stay curious. Leave a little note.<br>触碰字母，遇见另一种形状。<br>从这里，开始记录你的今天。</p></div>
+</header>
+<section class="welcome-stage" id="memodot-hero" aria-label="互动字母">
+<span class="welcome-tag tag-one">Little thoughts</span>
+<h1 class="memodot-title" aria-label="MemoDot">MemoDot</h1>
+<span class="welcome-tag tag-two">Make a memory</span>
+<span class="welcome-tag tag-three">Keep this moment</span>
+</section>
+<footer class="welcome-footer">
+<div><p class="welcome-volume">PERSONAL MEMORY · VOL. 001</p><div class="welcome-actions">
+<button id="enter-app" class="welcome-enter">进入 MemoDot <span aria-hidden="true">↗</span></button>
+<button id="memodot-replay" class="hero-control">↻ 重播开场</button>
+<button id="memodot-pause" class="hero-control" aria-pressed="false">暂停动画</button>
+</div></div>
+<p class="welcome-motto">CAPTURE / REMEMBER / REVISIT</p>
+<div class="welcome-time"><strong id="clock">00:00:00</strong><span>YOUR LITTLE MOMENTS</span></div>
+</footer>
+</main><div class="shell" id="workspace" hidden><header class="topbar"><button class="brand welcome-back" id="back-welcome" title="返回欢迎页"><span class="mark">·</span><b>MemoDot</b><span class="back-label">返回欢迎页</span></button><nav class="nav"><button class="active" data-view="overview">概览</button><button data-view="calendar">日历</button><button data-view="records">记录</button><button data-view="reminders">提醒</button><button data-view="mood">心情</button></nav><div class="top-time" id="top-time"></div><div class="avatar">P</div></header><main id="overview" class="view active"><section class="grid"><div><div class="card"><div class="section-head"><h2>快速记录</h2><span class="muted" id="record-status">硬件或音频均可</span></div><p class="muted">按 StickS3 硬件按钮开始，再按一次结束。</p><label class="toggle"><input id="analyze" type="checkbox" checked><i></i>同时提取任务、时间和标签</label><button class="primary wide" id="record">● 开始硬件录音</button><p id="error" class="error" hidden></p></div><div class="card"><div class="section-head"><h2>最新记录 · 近12小时</h2><button class="link" id="refresh">刷新</button></div><div id="latest" class="empty">还没有新的记录。</div></div></div><aside><div class="card mood"><h3>今日心情</h3><div class="mood-face" id="mood-face">🌿</div><b id="mood-text">尚未记录</b><p class="muted">记录并确认今天的状态</p><div class="progress"><i></i></div><button class="secondary" id="mood-btn">记录心情</button></div><div class="card upcoming"><div class="section-head"><h3>即将到来</h3><span class="muted">倒计时</span></div><strong id="countdown">--:--:--</strong><p class="muted" id="next-event">今天 · 等待新的安排</p></div></aside></section></main><main id="calendar" class="view"><div class="page-card"><div class="section-head"><div><h2 id="month-title">日历</h2><span class="muted">来自你的真实记忆</span></div><div><button class="secondary" id="prev">‹</button> <button class="secondary" id="today">今天</button> <button class="secondary" id="next">›</button></div></div><div class="week">日　一　二　三　四　五　六</div><div id="days" class="days"></div></div></main><main id="records" class="view"><div class="page-card"><div class="section-head"><div><h2>全部记录</h2><span class="muted" id="record-count"></span></div><div class="search-box"><input id="memory-search" placeholder="搜索文字、任务、标签或地点"><button class="secondary" id="search-memory">搜索</button></div></div><div id="history"></div></div></main><main id="reminders" class="view"><div class="page-card"><h2>提醒中心</h2><p class="muted">包含时间、任务或提醒信息的记忆。</p><div id="reminder-list"></div></div></main><main id="mood" class="view"><div class="page-card"><h2>心情记录</h2><p class="muted">每天留下一句话，看看自己的节奏。</p><div id="mood-history" class="mood-history"></div></div></main></div><div id="toast" class="toast"></div><script src="/app.js"></script></body></html>

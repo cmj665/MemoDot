@@ -1,0 +1,13 @@
+# AI 服务端基础依赖。Python 建议使用 3.11 或 3.12。
+python-dotenv==1.1.1
+funasr==1.2.7
+modelscope==1.32.0
+torch==2.7.1
+torchaudio==2.7.1
+soundfile==0.13.1
+imageio-ffmpeg==0.6.0
+bleak>=0.22.3
+openai>=1.99.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
